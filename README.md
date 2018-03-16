@@ -24,12 +24,15 @@ You can install the SDK using [Composer](http://getcomposer.org) by adding `dire
   "require": {
     "directus/sdk": "0.9.*"
   },
+  "minimum-stability": "dev",
   "repositories": [{
     "type": "git",
     "url": "https://github.com/wellingguzman/zend-db"
   }]
 }
 ```
+
+Make sure `dev` is the `minimum-stability`.
 
 Then run `composer install`.
 
